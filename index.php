@@ -152,66 +152,68 @@
                     </div>
                 </div>
             </div>
-            <div class="row mt-5 bg-light">
+        </div>
+        <div class="row mt-5 bg-light">
 
-                <div class="col">
+            <div class="col">
 
-                    <h2 class="display-5 text-center" id="cadastro">CADASTRE-SE</h2>
+                <h2 class="display-5 text-center" id="cadastro">CADASTRE-SE</h2>
+
+            </div>
+
+        </div>
+
+        <div class="row bg-light">
+
+            <div class="col">
+
+                <div class="mb-3">
+
+                    <label for="nome" class="form-label">Nome</label>
+
+                    <input type="text" class="form-control" id="nome">
 
                 </div>
+
+                <div class="mb-3">
+
+                    <label for="email" class="form-label">E-mail</label>
+
+                    <input type="email" class="form-control" id="email">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <label for="cidade" class="form-label">Cidade</label>
+
+                    <input type="text" class="form-control" id="cidade">
+
+                </div>
+
+                <button class="btn btn-lg btn-primary">SALVAR</button>
 
             </div>
 
-            <div class="row bg-light">
+        </div>
+        <br>
+        <div class="row">
 
-                <div class="col">
-
-                    <div class="mb-3">
-
-                        <label for="nome" class="form-label">Nome</label>
-
-                        <input type="text" class="form-control" id="nome">
-
+            <div class="col">
+                <div class="row">
+                    <div class="col">
+                        <h2 class="display6 text-center" id="contato">CONTATO</h2>
                     </div>
-
-                    <div class="mb-3">
-
-                        <label for="email" class="form-label">E-mail</label>
-
-                        <input type="email" class="form-control" id="email">
-
-                    </div>
-
-                    <div class="mb-3">
-
-                        <label for="cidade" class="form-label">Cidade</label>
-
-                        <input type="text" class="form-control" id="cidade">
-
-                    </div>
-
-                    <button class="btn btn-lg btn-primary">SALVAR</button>
-
                 </div>
-
             </div>
-            <br>
-            <div class="row">
-
-                <div class="col">
-                    <div class="row">
-                        <div class="col">
-                            <h2 class="display6 text-center" id="contato">CONTATO</h2>
-                        </div>
+            <div class="container-fluid">
+                <div class="row text-center">
+                    <div class="col">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3285286800956!2d-47.331288049406524!3d-22.75318608501699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1677113284946!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
-                <div class="container-fluid">
-                    <div class="row text-center">
-                        <div class="col">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.3285286800956!2d-47.331288049406524!3d-22.75318608501699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8998174c896b9%3A0x739b7f99b3323574!2sSenac%20Americana!5e0!3m2!1spt-BR!2sbr!4v1677113284946!5m2!1spt-BR!2sbr" width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
     </main>
     <footer class="container bg-success p-3">
         <div class="row">
